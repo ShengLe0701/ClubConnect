@@ -1,0 +1,79 @@
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="#1975fe">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_margin="32dp">
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Club Connect"
+            android:textColor="@color/md_white_1000"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:id="@+id/club_login_name"
+            android:theme="@style/LoginTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:hint="Username"
+            android:singleLine="true" />
+        <EditText
+            android:id="@+id/club_login_password"
+            android:theme="@style/LoginTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:singleLine="true"
+            android:password="true" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+            <Button
+                android:id="@+id/sign_up"
+                android:text="SIGNUP"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:background="#1975fe"
+                android:textColor="@color/White"
+                android:layout_width="100dp"
+                android:layout_height="40dip" />
+            <Button
+                android:id="@+id/club_remember_password"
+                android:text="Remember Password"
+                android:textSize="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:background="#1975fe"
+                android:textColor="@color/White"
+                android:layout_width="100dp"
+                android:layout_height="40dip" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/login"
+            android:text="LOGIN"
+            android:textSize="20dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/White"
+            android:textColor="#1975fe"
+            android:layout_width="match_parent"
+            android:layout_height="60dip" />
+    </LinearLayout>
+</RelativeLayout>

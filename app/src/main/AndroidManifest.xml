@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.clubconnect.isayyuhh.clubconnect">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+
+    <permission
+        android:name="com.clubconnect.isayyuhh.clubconnect.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.clubconnect.isayyuhh.clubconnect.permission.C2D_MESSAGE" />
+
+    <application
+        android:name=".application.ParseApp"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+
+        <receiver
+            android:name="com.parse.ParsePushBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.parse.push.intent.RECEIVE" />
+                <action android:name="com.parse.push.intent.OPEN" />
+                <action android:name="com.parse.push.intent.DELETE" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.parse.PushService" />
+
+        <receiver
+            android:name="com.parse.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.clubconnect.isayyuhh.clubconnect" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.parse.ParseBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="com.push.intent.RECEIVE" />
+                <action android:name="com.push.intent.DELETE" />
+                <action android:name="com.push.intent.OPEN" />
+            </intent-filter>
+        </receiver>
+
+
+        <activity
+            android:name=".activities.StartupActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.SignUpSchool"
+            android:label="@string/activity_signup"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.SignUpEmail"
+            android:label="@string/activity_signup"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.SignUpName"
+            android:label="@string/activity_signup"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".activities.SignUpPhone"
+            android:label="@string/activity_signup"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.SignUpProcessingActivity"
+            android:label="@string/activity_signup"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.InterestCategoryActivity"
+            android:label="@string/activity_signup"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+
+
+
+
+
+        <activity
+            android:name=".activities.SignUpAccount"
+            android:label="@string/activity_signup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.InterestActivity"
+            android:label="@string/activity_interest"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.SubInterestActivity"
+            android:label="@string/activity_subinterest"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ClubSignUpAccount"
+            android:label="@string/activity_signup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ClubChoice"
+            android:label="@string/activity_signup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ClubLoginAccount"
+            android:label="@string/activity_signup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ClubInterestActivity"
+            android:label="@string/activity_signup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ClubSubInterestActivity"
+            android:label="@string/activity_signup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.HomeActivity"
+            android:label="@string/activity_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.TutorialViewPager"
+            android:label="@string/activity_login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.LoginAccount"
+            android:label="@string/activity_login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DetailClub"
+            android:label="@string/activity_club"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DetailEvent"
+            android:label="@string/activity_event"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.AirplaneActivity" />
+        <activity
+            android:name=".activities.MaintenanceActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_maintenance"
+            android:parentActivityName=".activities.LoginAccount"
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.clubconnect.isayyuhh.clubconnect.activities.LoginAccount" />
+        </activity>
+        <activity android:name=".activities.ScanActivity" />
+        <activity android:name=".activities.ClubPeopleActivity" />
+        <activity android:name=".activities.EditSummaryActivity" />
+        <activity android:name=".activities.FinishMaintenanceActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,57 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.InterestCategoryActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#1975fe">
+
+
+        <FrameLayout
+            android:id="@+id/status_bar1"
+            android:layout_width="match_parent"
+            android:layout_height="124dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:text="Welcome To Club Connect "
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginTop="25dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="241dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="What kind of experiences\n &amp; Group are you in to?"
+                android:textAlignment="center"
+                android:layout_marginTop="65dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal" />
+
+        </FrameLayout>
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/include_interest" />
+
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/interest_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@mipmap/ic_next" />
+</android.support.design.widget.CoordinatorLayout>

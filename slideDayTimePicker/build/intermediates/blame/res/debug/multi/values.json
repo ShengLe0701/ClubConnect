@@ -1,0 +1,556 @@
+[
+    {
+        "outputFile": "C:\\Users\\InvaderZim\\Documents\\GitHub\\ClubConnectReal\\slideDayTimePicker\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 10,
+                    "endColumn": 19,
+                    "endOffset": 367
+                },
+                "from": {
+                    "file": "C:\\Users\\InvaderZim\\Documents\\GitHub\\ClubConnectReal\\slideDayTimePicker\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 451,
+                        "endLine": 23,
+                        "endColumn": 19,
+                        "endOffset": 763
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 372,
+                    "endColumn": 61,
+                    "endOffset": 429
+                },
+                "from": {
+                    "file": "C:\\Users\\InvaderZim\\Documents\\GitHub\\ClubConnectReal\\slideDayTimePicker\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 61,
+                        "endOffset": 114
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 434,
+                    "endColumn": 62,
+                    "endOffset": 492
+                },
+                "from": {
+                    "file": "C:\\Users\\InvaderZim\\Documents\\GitHub\\ClubConnectReal\\slideDayTimePicker\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 119,
+                        "endColumn": 62,
+                        "endOffset": 177
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 497,
+                    "endColumn": 41,
+                    "endOffset": 534
+                },
+                "from": {
+                    "file": "C:\\Users\\InvaderZim\\Documents\\GitHub\\ClubConnectReal\\slideDayTimePicker\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 362,
+                        "endColumn": 41,
+                        "endOffset": 399
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 539,
+                    "endColumn": 41,
+                    "endOffset": 576
+                },
+                "from": {
+                    "file": "C:\\Users\\InvaderZim\\Documents\\GitHub\\ClubConnectReal\\slideDayTimePicker\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 182,
+                        "endColumn": 41,
+                        "endOffset": 219
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 581,
+                    "endColumn": 45,
+                    "endOffset": 622
+                },
+                "from": {
+                    "file": "C:\\Users\\InvaderZim\\Documents\\GitHub\\ClubConnectReal\\slideDayTimePicker\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 404,
+                        "endColumn": 45,
+                        "endOffset": 445
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 627,
+                    "endColumn": 41,
+                    "endOffset": 664
+                },
+                "from": {
+                    "file": "C:\\Users\\InvaderZim\\Documents\\GitHub\\ClubConnectReal\\slideDayTimePicker\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 140,
+                        "endColumn": 41,
+                        "endOffset": 177
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 669,
+                    "endColumn": 39,
+                    "endOffset": 704
+                },
+                "from": {
+                    "file": "C:\\Users\\InvaderZim\\Documents\\GitHub\\ClubConnectReal\\slideDayTimePicker\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 39,
+                        "endOffset": 92
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 709,
+                    "endColumn": 41,
+                    "endOffset": 746
+                },
+                "from": {
+                    "file": "C:\\Users\\InvaderZim\\Documents\\GitHub\\ClubConnectReal\\slideDayTimePicker\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 97,
+                        "endColumn": 41,
+                        "endOffset": 134
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 751,
+                    "endColumn": 45,
+                    "endOffset": 792
+                },
+                "from": {
+                    "file": "C:\\Users\\InvaderZim\\Documents\\GitHub\\ClubConnectReal\\slideDayTimePicker\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 316,
+                        "endColumn": 45,
+                        "endOffset": 357
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 797,
+                    "endColumn": 43,
+                    "endOffset": 836
+                },
+                "from": {
+                    "file": "C:\\Users\\InvaderZim\\Documents\\GitHub\\ClubConnectReal\\slideDayTimePicker\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 224,
+                        "endColumn": 43,
+                        "endOffset": 263
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 841,
+                    "endColumn": 47,
+                    "endOffset": 884
+                },
+                "from": {
+                    "file": "C:\\Users\\InvaderZim\\Documents\\GitHub\\ClubConnectReal\\slideDayTimePicker\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 268,
+                        "endColumn": 47,
+                        "endOffset": 311
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 889,
+                    "endLine": 28,
+                    "endColumn": 12,
+                    "endOffset": 1175
+                },
+                "from": {
+                    "file": "C:\\Users\\InvaderZim\\Documents\\GitHub\\ClubConnectReal\\slideDayTimePicker\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 186,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1180,
+                    "endLine": 31,
+                    "endColumn": 12,
+                    "endOffset": 1335
+                },
+                "from": {
+                    "file": "C:\\Users\\InvaderZim\\Documents\\GitHub\\ClubConnectReal\\slideDayTimePicker\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 510,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 665
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "E:\\Development_Workspace\\2016_10_12_upwork\\Work\\ClubConnect\\slideDayTimePicker\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 10,
+                    "endColumn": 19,
+                    "endOffset": 367
+                },
+                "from": {
+                    "file": "E:\\Development_Workspace\\2016_10_12_upwork\\Work\\ClubConnect\\slideDayTimePicker\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 451,
+                        "endLine": 23,
+                        "endColumn": 19,
+                        "endOffset": 763
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 372,
+                    "endColumn": 61,
+                    "endOffset": 429
+                },
+                "from": {
+                    "file": "E:\\Development_Workspace\\2016_10_12_upwork\\Work\\ClubConnect\\slideDayTimePicker\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 61,
+                        "endOffset": 114
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 434,
+                    "endColumn": 62,
+                    "endOffset": 492
+                },
+                "from": {
+                    "file": "E:\\Development_Workspace\\2016_10_12_upwork\\Work\\ClubConnect\\slideDayTimePicker\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 119,
+                        "endColumn": 62,
+                        "endOffset": 177
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 497,
+                    "endColumn": 41,
+                    "endOffset": 534
+                },
+                "from": {
+                    "file": "E:\\Development_Workspace\\2016_10_12_upwork\\Work\\ClubConnect\\slideDayTimePicker\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 362,
+                        "endColumn": 41,
+                        "endOffset": 399
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 539,
+                    "endColumn": 41,
+                    "endOffset": 576
+                },
+                "from": {
+                    "file": "E:\\Development_Workspace\\2016_10_12_upwork\\Work\\ClubConnect\\slideDayTimePicker\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 182,
+                        "endColumn": 41,
+                        "endOffset": 219
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 581,
+                    "endColumn": 45,
+                    "endOffset": 622
+                },
+                "from": {
+                    "file": "E:\\Development_Workspace\\2016_10_12_upwork\\Work\\ClubConnect\\slideDayTimePicker\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 404,
+                        "endColumn": 45,
+                        "endOffset": 445
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 627,
+                    "endColumn": 41,
+                    "endOffset": 664
+                },
+                "from": {
+                    "file": "E:\\Development_Workspace\\2016_10_12_upwork\\Work\\ClubConnect\\slideDayTimePicker\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 140,
+                        "endColumn": 41,
+                        "endOffset": 177
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 669,
+                    "endColumn": 39,
+                    "endOffset": 704
+                },
+                "from": {
+                    "file": "E:\\Development_Workspace\\2016_10_12_upwork\\Work\\ClubConnect\\slideDayTimePicker\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 39,
+                        "endOffset": 92
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 709,
+                    "endColumn": 41,
+                    "endOffset": 746
+                },
+                "from": {
+                    "file": "E:\\Development_Workspace\\2016_10_12_upwork\\Work\\ClubConnect\\slideDayTimePicker\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 97,
+                        "endColumn": 41,
+                        "endOffset": 134
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 751,
+                    "endColumn": 45,
+                    "endOffset": 792
+                },
+                "from": {
+                    "file": "E:\\Development_Workspace\\2016_10_12_upwork\\Work\\ClubConnect\\slideDayTimePicker\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 316,
+                        "endColumn": 45,
+                        "endOffset": 357
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 797,
+                    "endColumn": 43,
+                    "endOffset": 836
+                },
+                "from": {
+                    "file": "E:\\Development_Workspace\\2016_10_12_upwork\\Work\\ClubConnect\\slideDayTimePicker\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 224,
+                        "endColumn": 43,
+                        "endOffset": 263
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 841,
+                    "endColumn": 47,
+                    "endOffset": 884
+                },
+                "from": {
+                    "file": "E:\\Development_Workspace\\2016_10_12_upwork\\Work\\ClubConnect\\slideDayTimePicker\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 268,
+                        "endColumn": 47,
+                        "endOffset": 311
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 889,
+                    "endLine": 28,
+                    "endColumn": 12,
+                    "endOffset": 1175
+                },
+                "from": {
+                    "file": "E:\\Development_Workspace\\2016_10_12_upwork\\Work\\ClubConnect\\slideDayTimePicker\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 186,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1180,
+                    "endLine": 31,
+                    "endColumn": 12,
+                    "endOffset": 1335
+                },
+                "from": {
+                    "file": "E:\\Development_Workspace\\2016_10_12_upwork\\Work\\ClubConnect\\slideDayTimePicker\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 510,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 665
+                    }
+                }
+            }
+        ]
+    }
+]

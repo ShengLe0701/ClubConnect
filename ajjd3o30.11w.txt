@@ -1,0 +1,1254 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is behind 'origin/master' by 4 commits, and can be fast-forwarded.
+#   (use "git pull" to update your local branch)
+#
+# Changes to be committed:
+#	modified:   .gradle/2.10/taskArtifacts/cache.properties.lock
+#	modified:   .gradle/2.10/taskArtifacts/fileHashes.bin
+#	modified:   .gradle/2.10/taskArtifacts/fileSnapshots.bin
+#	modified:   .gradle/2.10/taskArtifacts/outputFileStates.bin
+#	modified:   .gradle/2.10/taskArtifacts/taskArtifacts.bin
+#	modified:   .gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin
+#	modified:   .gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock
+#	modified:   .gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin
+#	modified:   .gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock
+#	modified:   .gradle/2.10/tasks/_slideDayTimePicker_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin
+#	modified:   .gradle/2.10/tasks/_slideDayTimePicker_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock
+#	modified:   .gradle/2.10/tasks/_slideDayTimePicker_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin
+#	modified:   .gradle/2.10/tasks/_slideDayTimePicker_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock
+#	modified:   .gradle/2.10/tasks/_slideDayTimePicker_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin
+#	modified:   .gradle/2.10/tasks/_slideDayTimePicker_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock
+#	modified:   .gradle/2.10/tasks/_slideDayTimePicker_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin
+#	modified:   .gradle/2.10/tasks/_slideDayTimePicker_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock
+#	new file:   .idea/.name
+#	modified:   .idea/compiler.xml
+#	deleted:    .idea/dictionaries/isayyuhh.xml
+#	modified:   .idea/encodings.xml
+#	modified:   .idea/gradle.xml
+#	modified:   .idea/libraries/animated_vector_drawable_23_4_0.xml
+#	modified:   .idea/libraries/appcompat_v7_23_4_0.xml
+#	modified:   .idea/libraries/cardview_v7_23_4_0.xml
+#	modified:   .idea/libraries/constraint_layout_solver_1_0_0_alpha1.xml
+#	modified:   .idea/libraries/design_23_4_0.xml
+#	deleted:    .idea/libraries/firebase_analytics_9_2_0.xml
+#	new file:   .idea/libraries/firebase_analytics_9_4_0.xml
+#	deleted:    .idea/libraries/firebase_analytics_impl_9_2_0.xml
+#	new file:   .idea/libraries/firebase_analytics_impl_9_4_0.xml
+#	deleted:    .idea/libraries/firebase_auth_9_2_0.xml
+#	new file:   .idea/libraries/firebase_auth_9_4_0.xml
+#	deleted:    .idea/libraries/firebase_auth_common_9_2_0.xml
+#	new file:   .idea/libraries/firebase_auth_common_9_4_0.xml
+#	deleted:    .idea/libraries/firebase_auth_module_9_2_0.xml
+#	new file:   .idea/libraries/firebase_auth_module_9_4_0.xml
+#	deleted:    .idea/libraries/firebase_common_9_2_0.xml
+#	new file:   .idea/libraries/firebase_common_9_4_0.xml
+#	deleted:    .idea/libraries/firebase_config_9_2_0.xml
+#	new file:   .idea/libraries/firebase_config_9_4_0.xml
+#	new file:   .idea/libraries/firebase_core_9_4_0.xml
+#	deleted:    .idea/libraries/firebase_crash_9_2_0.xml
+#	new file:   .idea/libraries/firebase_crash_9_4_0.xml
+#	deleted:    .idea/libraries/firebase_database_9_2_0.xml
+#	deleted:    .idea/libraries/firebase_database_connection_9_2_0.xml
+#	deleted:    .idea/libraries/firebase_iid_9_2_0.xml
+#	new file:   .idea/libraries/firebase_iid_9_4_0.xml
+#	new file:   .idea/libraries/firebase_invites_9_4_0.xml
+#	deleted:    .idea/libraries/firebase_messaging_9_2_0.xml
+#	new file:   .idea/libraries/firebase_messaging_9_4_0.xml
+#	deleted:    .idea/libraries/firebase_storage_9_2_0.xml
+#	new file:   .idea/libraries/firebase_storage_9_4_0.xml
+#	deleted:    .idea/libraries/firebase_storage_common_9_2_0.xml
+#	new file:   .idea/libraries/firebase_storage_common_9_4_0.xml
+#	modified:   .idea/libraries/library_1_3.xml
+#	deleted:    .idea/libraries/mediarouter_v7_23_0_0.xml
+#	modified:   .idea/libraries/mixpanel_android_4_9_1.xml
+#	deleted:    .idea/libraries/play_services_9_2_0.xml
+#	deleted:    .idea/libraries/play_services_ads_9_2_0.xml
+#	deleted:    .idea/libraries/play_services_ads_lite_9_2_0.xml
+#	deleted:    .idea/libraries/play_services_analytics_9_2_0.xml
+#	deleted:    .idea/libraries/play_services_analytics_impl_9_2_0.xml
+#	deleted:    .idea/libraries/play_services_appindexing_9_2_0.xml
+#	new file:   .idea/libraries/play_services_appindexing_9_4_0.xml
+#	deleted:    .idea/libraries/play_services_appinvite_9_2_0.xml
+#	new file:   .idea/libraries/play_services_appinvite_9_4_0.xml
+#	deleted:    .idea/libraries/play_services_auth_9_2_0.xml
+#	deleted:    .idea/libraries/play_services_auth_base_9_2_0.xml
+#	deleted:    .idea/libraries/play_services_base_9_2_0.xml
+#	new file:   .idea/libraries/play_services_base_9_4_0.xml
+#	deleted:    .idea/libraries/play_services_basement_9_2_0.xml
+#	new file:   .idea/libraries/play_services_basement_9_4_0.xml
+#	deleted:    .idea/libraries/play_services_cast_9_2_0.xml
+#	deleted:    .idea/libraries/play_services_cast_framework_9_2_0.xml
+#	deleted:    .idea/libraries/play_services_clearcut_9_2_0.xml
+#	deleted:    .idea/libraries/play_services_contextmanager_9_2_0.xml
+#	deleted:    .idea/libraries/play_services_drive_9_2_0.xml
+#	deleted:    .idea/libraries/play_services_fitness_9_2_0.xml
+#	deleted:    .idea/libraries/play_services_games_9_2_0.xml
+#	deleted:    .idea/libraries/play_services_gass_9_2_0.xml
+#	deleted:    .idea/libraries/play_services_gcm_9_2_0.xml
+#	deleted:    .idea/libraries/play_services_identity_9_2_0.xml
+#	deleted:    .idea/libraries/play_services_iid_9_2_0.xml
+#	deleted:    .idea/libraries/play_services_location_9_2_0.xml
+#	deleted:    .idea/libraries/play_services_maps_9_2_0.xml
+#	deleted:    .idea/libraries/play_services_nearby_9_2_0.xml
+#	deleted:    .idea/libraries/play_services_panorama_9_2_0.xml
+#	deleted:    .idea/libraries/play_services_places_9_2_0.xml
+#	deleted:    .idea/libraries/play_services_plus_9_2_0.xml
+#	deleted:    .idea/libraries/play_services_safetynet_9_2_0.xml
+#	deleted:    .idea/libraries/play_services_tagmanager_9_2_0.xml
+#	deleted:    .idea/libraries/play_services_tagmanager_api_9_2_0.xml
+#	deleted:    .idea/libraries/play_services_tasks_9_2_0.xml
+#	new file:   .idea/libraries/play_services_tasks_9_4_0.xml
+#	deleted:    .idea/libraries/play_services_vision_9_2_0.xml
+#	deleted:    .idea/libraries/play_services_wallet_9_2_0.xml
+#	deleted:    .idea/libraries/play_services_wearable_9_2_0.xml
+#	modified:   .idea/libraries/recyclerview_v7_23_4_0.xml
+#	modified:   .idea/libraries/support_annotations_23_1_1.xml
+#	modified:   .idea/libraries/support_annotations_23_4_0.xml
+#	modified:   .idea/libraries/support_v4_23_1_1.xml
+#	modified:   .idea/libraries/support_v4_23_4_0.xml
+#	modified:   .idea/libraries/support_vector_drawable_23_4_0.xml
+#	modified:   .idea/libraries/zxing_android_embedded_3_0_2.xml
+#	modified:   .idea/misc.xml
+#	modified:   .idea/modules.xml
+#	new file:   .idea/runConfigurations.xml
+#	deleted:    .idea/scopes/scope_settings.xml
+#	deleted:    .idea/vcs.xml
+#	modified:   .idea/workspace.xml
+#	new file:   ClubConnectReal.iml
+#	modified:   app/app.iml
+#	modified:   app/build.gradle
+#	new file:   app/google-services.json
+#	modified:   app/src/main/java/com/clubconnect/isayyuhh/clubconnect/activities/LoginAccount.java
+#	modified:   app/src/main/java/com/clubconnect/isayyuhh/clubconnect/activities/SignUpAccount.java
+#	modified:   build.gradle
+#	modified:   build/generated/mockable-android-23.jar
+#	new file:   build/intermediates/dex-cache/cache.xml
+#	modified:   local.properties
+#	modified:   slideDayTimePicker/build/intermediates/blame/res/androidTest/debug/multi/values-v11.json
+#	modified:   slideDayTimePicker/build/intermediates/blame/res/androidTest/debug/multi/values-v14.json
+#	modified:   slideDayTimePicker/build/intermediates/blame/res/androidTest/debug/multi/values.json
+#	modified:   slideDayTimePicker/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json
+#	modified:   slideDayTimePicker/build/intermediates/blame/res/androidTest/debug/single/drawable-mdpi-v4.json
+#	modified:   slideDayTimePicker/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json
+#	modified:   slideDayTimePicker/build/intermediates/blame/res/androidTest/debug/single/layout.json
+#	modified:   slideDayTimePicker/build/intermediates/blame/res/debug/multi/values-v11.json
+#	modified:   slideDayTimePicker/build/intermediates/blame/res/debug/multi/values-v14.json
+#	modified:   slideDayTimePicker/build/intermediates/blame/res/debug/multi/values.json
+#	modified:   slideDayTimePicker/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json
+#	modified:   slideDayTimePicker/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json
+#	modified:   slideDayTimePicker/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json
+#	modified:   slideDayTimePicker/build/intermediates/blame/res/debug/single/layout.json
+#	modified:   slideDayTimePicker/build/intermediates/blame/res/release/multi/values-v11.json
+#	modified:   slideDayTimePicker/build/intermediates/blame/res/release/multi/values-v14.json
+#	modified:   slideDayTimePicker/build/intermediates/blame/res/release/multi/values.json
+#	modified:   slideDayTimePicker/build/intermediates/blame/res/release/single/drawable-hdpi-v4.json
+#	modified:   slideDayTimePicker/build/intermediates/blame/res/release/single/drawable-mdpi-v4.json
+#	modified:   slideDayTimePicker/build/intermediates/blame/res/release/single/drawable-xhdpi-v4.json
+#	modified:   slideDayTimePicker/build/intermediates/blame/res/release/single/layout.json
+#	modified:   slideDayTimePicker/build/intermediates/bundles/debug/classes.jar
+#	modified:   slideDayTimePicker/build/intermediates/bundles/release/classes.jar
+#	modified:   slideDayTimePicker/build/intermediates/classes/debug/com/github/jjobes/slidedaytimepicker/CustomNumberPicker.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/debug/com/github/jjobes/slidedaytimepicker/CustomTimePicker.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/debug/com/github/jjobes/slidedaytimepicker/CustomViewPager.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/debug/com/github/jjobes/slidedaytimepicker/DayFragment$1.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/debug/com/github/jjobes/slidedaytimepicker/DayFragment.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/debug/com/github/jjobes/slidedaytimepicker/R.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/debug/com/github/jjobes/slidedaytimepicker/SlideDayTimeDialogFragment$1.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/debug/com/github/jjobes/slidedaytimepicker/SlideDayTimeDialogFragment$2.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/debug/com/github/jjobes/slidedaytimepicker/SlideDayTimeDialogFragment$ViewPagerAdapter.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/debug/com/github/jjobes/slidedaytimepicker/SlideDayTimeDialogFragment.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/debug/com/github/jjobes/slidedaytimepicker/SlideDayTimePicker.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/debug/com/github/jjobes/slidedaytimepicker/SlidingTabLayout$1.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/debug/com/github/jjobes/slidedaytimepicker/SlidingTabLayout$InternalViewPagerListener.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/debug/com/github/jjobes/slidedaytimepicker/SlidingTabLayout$TabClickListener.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/debug/com/github/jjobes/slidedaytimepicker/SlidingTabLayout.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/debug/com/github/jjobes/slidedaytimepicker/SlidingTabStrip$1.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/debug/com/github/jjobes/slidedaytimepicker/SlidingTabStrip$SimpleTabColorizer.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/debug/com/github/jjobes/slidedaytimepicker/SlidingTabStrip.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/debug/com/github/jjobes/slidedaytimepicker/TimeFragment$1.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/debug/com/github/jjobes/slidedaytimepicker/TimeFragment$2.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/debug/com/github/jjobes/slidedaytimepicker/TimeFragment.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/release/com/github/jjobes/slidedaytimepicker/CustomNumberPicker.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/release/com/github/jjobes/slidedaytimepicker/CustomTimePicker.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/release/com/github/jjobes/slidedaytimepicker/CustomViewPager.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/release/com/github/jjobes/slidedaytimepicker/DayFragment$1.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/release/com/github/jjobes/slidedaytimepicker/DayFragment.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/release/com/github/jjobes/slidedaytimepicker/R.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/release/com/github/jjobes/slidedaytimepicker/SlideDayTimeDialogFragment$1.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/release/com/github/jjobes/slidedaytimepicker/SlideDayTimeDialogFragment$2.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/release/com/github/jjobes/slidedaytimepicker/SlideDayTimeDialogFragment$ViewPagerAdapter.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/release/com/github/jjobes/slidedaytimepicker/SlideDayTimeDialogFragment.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/release/com/github/jjobes/slidedaytimepicker/SlideDayTimePicker.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/release/com/github/jjobes/slidedaytimepicker/SlidingTabLayout$1.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/release/com/github/jjobes/slidedaytimepicker/SlidingTabLayout$InternalViewPagerListener.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/release/com/github/jjobes/slidedaytimepicker/SlidingTabLayout$TabClickListener.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/release/com/github/jjobes/slidedaytimepicker/SlidingTabLayout.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/release/com/github/jjobes/slidedaytimepicker/SlidingTabStrip$1.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/release/com/github/jjobes/slidedaytimepicker/SlidingTabStrip$SimpleTabColorizer.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/release/com/github/jjobes/slidedaytimepicker/SlidingTabStrip.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/release/com/github/jjobes/slidedaytimepicker/TimeFragment$1.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/release/com/github/jjobes/slidedaytimepicker/TimeFragment$2.class
+#	modified:   slideDayTimePicker/build/intermediates/classes/release/com/github/jjobes/slidedaytimepicker/TimeFragment.class
+#	modified:   slideDayTimePicker/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml
+#	modified:   slideDayTimePicker/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml
+#	modified:   slideDayTimePicker/build/intermediates/incremental/mergeDebugAndroidTestShaders/merger.xml
+#	modified:   slideDayTimePicker/build/intermediates/incremental/mergeDebugAssets/merger.xml
+#	modified:   slideDayTimePicker/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+#	modified:   slideDayTimePicker/build/intermediates/incremental/mergeDebugResources/merger.xml
+#	modified:   slideDayTimePicker/build/intermediates/incremental/mergeDebugShaders/merger.xml
+#	modified:   slideDayTimePicker/build/intermediates/incremental/mergeReleaseAssets/merger.xml
+#	modified:   slideDayTimePicker/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml
+#	modified:   slideDayTimePicker/build/intermediates/incremental/mergeReleaseResources/merger.xml
+#	modified:   slideDayTimePicker/build/intermediates/incremental/mergeReleaseShaders/merger.xml
+#	modified:   slideDayTimePicker/build/intermediates/incremental/packageDebugResources/merger.xml
+#	modified:   slideDayTimePicker/build/intermediates/incremental/packageReleaseResources/merger.xml
+#	modified:   slideDayTimePicker/build/intermediates/res/resources-debug-androidTest.ap_
+#	modified:   slideDayTimePicker/build/outputs/aar/slideDayTimePicker-debug.aar
+#	modified:   slideDayTimePicker/build/outputs/aar/slideDayTimePicker-release.aar
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/BuildConfig.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/accessibilityservice/AccessibilityServiceInfoCompat$AccessibilityServiceInfoIcsImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/accessibilityservice/AccessibilityServiceInfoCompat$AccessibilityServiceInfoJellyBeanMr2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/accessibilityservice/AccessibilityServiceInfoCompat$AccessibilityServiceInfoStubImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/accessibilityservice/AccessibilityServiceInfoCompat$AccessibilityServiceInfoVersionImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/accessibilityservice/AccessibilityServiceInfoCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/animation/AnimatorCompatHelper.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/ActionBarDrawerToggle$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/ActionBarDrawerToggle$ActionBarDrawerToggleImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/ActionBarDrawerToggle$ActionBarDrawerToggleImplBase.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/ActionBarDrawerToggle$ActionBarDrawerToggleImplHC.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/ActionBarDrawerToggle$ActionBarDrawerToggleImplJellybeanMR2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/ActionBarDrawerToggle$Delegate.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/ActionBarDrawerToggle$DelegateProvider.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/ActionBarDrawerToggle$SlideDrawable.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/ActionBarDrawerToggle.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/ActivityCompat$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/ActivityCompat$OnRequestPermissionsResultCallback.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/ActivityCompat$SharedElementCallback21Impl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/ActivityCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/ActivityManagerCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/ActivityOptionsCompat$ActivityOptionsImpl21.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/ActivityOptionsCompat$ActivityOptionsImplJB.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/ActivityOptionsCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/AppOpsManagerCompat$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/AppOpsManagerCompat$AppOpsManager23.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/AppOpsManagerCompat$AppOpsManagerImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/AppOpsManagerCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/BackStackRecord$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/BackStackRecord$2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/BackStackRecord$3.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/BackStackRecord$Op.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/BackStackRecord$TransitionState.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/BackStackRecord.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/BackStackState$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/BackStackState.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/BundleCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/DialogFragment.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/Fragment$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/Fragment$InstantiationException.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/Fragment$SavedState$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/Fragment$SavedState.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/Fragment.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentActivity$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentActivity$HostCallbacks.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentActivity$NonConfigurationInstances.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentActivity.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentContainer.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentController.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentHostCallback.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentManager$BackStackEntry.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentManager$OnBackStackChangedListener.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentManager.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentManagerImpl$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentManagerImpl$2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentManagerImpl$3.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentManagerImpl$4.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentManagerImpl$5.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentManagerImpl$AnimateOnHWLayerIfNeededListener$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentManagerImpl$AnimateOnHWLayerIfNeededListener$2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentManagerImpl$AnimateOnHWLayerIfNeededListener.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentManagerImpl$FragmentTag.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentManagerImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentManagerState$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentManagerState.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentPagerAdapter.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentState$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentState.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentStatePagerAdapter.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentTabHost$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentTabHost$DummyTabFactory.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentTabHost$SavedState$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentTabHost$SavedState.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentTabHost$TabInfo.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentTabHost.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/FragmentTransaction.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/INotificationSideChannel$Stub$Proxy.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/INotificationSideChannel$Stub.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/INotificationSideChannel.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/ListFragment$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/ListFragment$2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/ListFragment.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/LoaderManager$LoaderCallbacks.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/LoaderManager.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/LoaderManagerImpl$LoaderInfo.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/LoaderManagerImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NavUtils$NavUtilsImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NavUtils$NavUtilsImplBase.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NavUtils$NavUtilsImplJB.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NavUtils.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NoSaveStateFrameLayout.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompat$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompat$Action$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompat$Action$Builder.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompat$Action$Extender.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompat$Action$WearableExtender.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompat$Action.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompat$BigPictureStyle.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompat$BigTextStyle.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompat$Builder.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompat$BuilderExtender.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompat$CarExtender$UnreadConversation$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompat$CarExtender$UnreadConversation$Builder.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompat$CarExtender$UnreadConversation.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompat$CarExtender.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompat$Extender.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompat$InboxStyle.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompat$NotificationCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompat$NotificationCompatImplApi20.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompat$NotificationCompatImplApi21.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompat$NotificationCompatImplBase.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompat$NotificationCompatImplGingerbread.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompat$NotificationCompatImplHoneycomb.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompat$NotificationCompatImplIceCreamSandwich.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompat$NotificationCompatImplJellybean.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompat$NotificationCompatImplKitKat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompat$Style.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompat$WearableExtender.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompatExtras.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompatSideChannelService$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompatSideChannelService$NotificationSideChannelStub.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationCompatSideChannelService.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationManagerCompat$CancelTask.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationManagerCompat$Impl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationManagerCompat$ImplBase.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationManagerCompat$ImplEclair.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationManagerCompat$ImplIceCreamSandwich.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationManagerCompat$NotifyTask.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationManagerCompat$ServiceConnectedEvent.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationManagerCompat$SideChannelManager$ListenerRecord.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationManagerCompat$SideChannelManager.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationManagerCompat$Task.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/NotificationManagerCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/RemoteInput$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/RemoteInput$Builder.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/RemoteInput$Impl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/RemoteInput$ImplApi20.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/RemoteInput$ImplBase.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/RemoteInput$ImplJellybean.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/RemoteInput.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/ServiceCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/ShareCompat$IntentBuilder.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/ShareCompat$IntentReader.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/ShareCompat$ShareCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/ShareCompat$ShareCompatImplBase.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/ShareCompat$ShareCompatImplICS.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/ShareCompat$ShareCompatImplJB.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/ShareCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/SharedElementCallback.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/SuperNotCalledException.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/TaskStackBuilder$SupportParentable.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/TaskStackBuilder$TaskStackBuilderImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/TaskStackBuilder$TaskStackBuilderImplBase.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/TaskStackBuilder$TaskStackBuilderImplHoneycomb.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/TaskStackBuilder$TaskStackBuilderImplJellybean.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/app/TaskStackBuilder.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/AsyncTaskLoader$LoadTask.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/AsyncTaskLoader.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/ContentResolverCompat$ContentResolverCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/ContentResolverCompat$ContentResolverCompatImplBase.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/ContentResolverCompat$ContentResolverCompatImplJB.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/ContentResolverCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/ContextCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/CursorLoader.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/FileProvider$PathStrategy.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/FileProvider$SimplePathStrategy.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/FileProvider.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/IntentCompat$IntentCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/IntentCompat$IntentCompatImplBase.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/IntentCompat$IntentCompatImplHC.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/IntentCompat$IntentCompatImplIcsMr1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/IntentCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/Loader$ForceLoadContentObserver.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/Loader$OnLoadCanceledListener.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/Loader$OnLoadCompleteListener.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/Loader.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/LocalBroadcastManager$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/LocalBroadcastManager$BroadcastRecord.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/LocalBroadcastManager$ReceiverRecord.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/LocalBroadcastManager.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/ModernAsyncTask$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/ModernAsyncTask$2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/ModernAsyncTask$3.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/ModernAsyncTask$4.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/ModernAsyncTask$AsyncTaskResult.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/ModernAsyncTask$InternalHandler.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/ModernAsyncTask$Status.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/ModernAsyncTask$WorkerRunnable.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/ModernAsyncTask.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/ParallelExecutorCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/PermissionChecker$PermissionResult.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/PermissionChecker.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/SharedPreferencesCompat$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/SharedPreferencesCompat$EditorCompat$EditorHelperApi9Impl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/SharedPreferencesCompat$EditorCompat$EditorHelperBaseImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/SharedPreferencesCompat$EditorCompat$Helper.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/SharedPreferencesCompat$EditorCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/SharedPreferencesCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/WakefulBroadcastReceiver.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/pm/ActivityInfoCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/res/ResourcesCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/content/res/TypedArrayUtils.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/database/DatabaseUtilsCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/graphics/BitmapCompat$BaseBitmapImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/graphics/BitmapCompat$BitmapImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/graphics/BitmapCompat$HcMr1BitmapCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/graphics/BitmapCompat$JbMr2BitmapCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/graphics/BitmapCompat$KitKatBitmapCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/graphics/BitmapCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/graphics/ColorUtils.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/graphics/drawable/DrawableCompat$BaseDrawableImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/graphics/drawable/DrawableCompat$DrawableImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/graphics/drawable/DrawableCompat$HoneycombDrawableImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/graphics/drawable/DrawableCompat$JellybeanMr1DrawableImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/graphics/drawable/DrawableCompat$KitKatDrawableImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/graphics/drawable/DrawableCompat$LollipopDrawableImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/graphics/drawable/DrawableCompat$LollipopMr1DrawableImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/graphics/drawable/DrawableCompat$MDrawableImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/graphics/drawable/DrawableCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/graphics/drawable/RoundedBitmapDrawableFactory$DefaultRoundedBitmapDrawable.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/graphics/drawable/RoundedBitmapDrawableFactory.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/hardware/display/DisplayManagerCompat$JellybeanMr1Impl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/hardware/display/DisplayManagerCompat$LegacyImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/hardware/display/DisplayManagerCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/hardware/fingerprint/FingerprintManagerCompat$Api23FingerprintManagerCompatImpl$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/hardware/fingerprint/FingerprintManagerCompat$Api23FingerprintManagerCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/hardware/fingerprint/FingerprintManagerCompat$AuthenticationCallback.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/hardware/fingerprint/FingerprintManagerCompat$AuthenticationResult.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/hardware/fingerprint/FingerprintManagerCompat$CryptoObject.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/hardware/fingerprint/FingerprintManagerCompat$FingerprintManagerCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/hardware/fingerprint/FingerprintManagerCompat$LegacyFingerprintManagerCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/hardware/fingerprint/FingerprintManagerCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/internal/view/SupportMenu.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/internal/view/SupportMenuItem.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/internal/view/SupportSubMenu.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/IMediaBrowserServiceCompat$Stub$Proxy.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/IMediaBrowserServiceCompat$Stub.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/IMediaBrowserServiceCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/IMediaBrowserServiceCompatCallbacks$Stub$Proxy.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/IMediaBrowserServiceCompatCallbacks$Stub.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/IMediaBrowserServiceCompatCallbacks.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserCompat$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserCompat$ConnectionCallback.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserCompat$ItemCallback.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$3.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$4.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$5.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$6.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$7.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$MediaServiceConnection.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$ServiceCallbacks.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$Subscription.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserCompat$MediaItem$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserCompat$MediaItem$Flags.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserCompat$MediaItem.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserCompat$SubscriptionCallback.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserServiceCompat$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserServiceCompat$2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserServiceCompat$3.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserServiceCompat$4.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserServiceCompat$BrowserRoot.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserServiceCompat$ConnectionRecord.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserServiceCompat$Result.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserServiceCompat$ServiceBinder$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserServiceCompat$ServiceBinder$2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserServiceCompat$ServiceBinder$3.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserServiceCompat$ServiceBinder$4.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserServiceCompat$ServiceBinder$5.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserServiceCompat$ServiceBinder.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaBrowserServiceCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaDescriptionCompat$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaDescriptionCompat$Builder.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaDescriptionCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaMetadataCompat$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaMetadataCompat$BitmapKey.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaMetadataCompat$Builder.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaMetadataCompat$LongKey.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaMetadataCompat$RatingKey.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaMetadataCompat$TextKey.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/MediaMetadataCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/RatingCompat$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/RatingCompat$StarStyle.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/RatingCompat$Style.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/RatingCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/TransportController.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/TransportMediator$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/TransportMediator$2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/TransportMediator.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/TransportPerformer.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/TransportStateListener.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/VolumeProviderCompat$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/VolumeProviderCompat$Callback.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/VolumeProviderCompat$ControlType.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/VolumeProviderCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/IMediaControllerCallback$Stub$Proxy.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/IMediaControllerCallback$Stub.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/IMediaControllerCallback.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/IMediaSession$Stub$Proxy.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/IMediaSession$Stub.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/IMediaSession.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaButtonReceiver.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaControllerCompat$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaControllerCompat$Callback$MessageHandler.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaControllerCompat$Callback$StubApi21.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaControllerCompat$Callback$StubCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaControllerCompat$Callback.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaControllerCompat$MediaControllerImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaControllerCompat$MediaControllerImplApi21.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaControllerCompat$MediaControllerImplApi23.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaControllerCompat$MediaControllerImplBase.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaControllerCompat$PlaybackInfo.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaControllerCompat$TransportControls.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaControllerCompat$TransportControlsApi21.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaControllerCompat$TransportControlsApi23.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaControllerCompat$TransportControlsBase.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaControllerCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaSessionCompat$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaSessionCompat$Callback$StubApi21.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaSessionCompat$Callback$StubApi23.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaSessionCompat$Callback.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaSessionCompat$MediaSessionImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaSessionCompat$MediaSessionImplApi21.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaSessionCompat$MediaSessionImplBase$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaSessionCompat$MediaSessionImplBase$2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaSessionCompat$MediaSessionImplBase$Command.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaSessionCompat$MediaSessionImplBase$MediaSessionStub.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaSessionCompat$MediaSessionImplBase$MessageHandler.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaSessionCompat$MediaSessionImplBase.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaSessionCompat$OnActiveChangeListener.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaSessionCompat$QueueItem$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaSessionCompat$QueueItem.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaSessionCompat$ResultReceiverWrapper$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaSessionCompat$ResultReceiverWrapper.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaSessionCompat$SessionFlags.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaSessionCompat$Token$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaSessionCompat$Token.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/MediaSessionCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/ParcelableVolumeInfo$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/ParcelableVolumeInfo.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/PlaybackStateCompat$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/PlaybackStateCompat$Actions.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/PlaybackStateCompat$Builder.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/PlaybackStateCompat$CustomAction$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/PlaybackStateCompat$CustomAction$Builder.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/PlaybackStateCompat$CustomAction.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/PlaybackStateCompat$State.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/media/session/PlaybackStateCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/net/ConnectivityManagerCompat$BaseConnectivityManagerCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/net/ConnectivityManagerCompat$ConnectivityManagerCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/net/ConnectivityManagerCompat$GingerbreadConnectivityManagerCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/net/ConnectivityManagerCompat$HoneycombMR2ConnectivityManagerCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/net/ConnectivityManagerCompat$JellyBeanConnectivityManagerCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/net/ConnectivityManagerCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/net/TrafficStatsCompat$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/net/TrafficStatsCompat$BaseTrafficStatsCompatImpl$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/net/TrafficStatsCompat$BaseTrafficStatsCompatImpl$SocketTags.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/net/TrafficStatsCompat$BaseTrafficStatsCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/net/TrafficStatsCompat$IcsTrafficStatsCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/net/TrafficStatsCompat$TrafficStatsCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/net/TrafficStatsCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/os/AsyncTaskCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/os/CancellationSignal$OnCancelListener.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/os/CancellationSignal.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/os/EnvironmentCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/os/IResultReceiver$Stub$Proxy.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/os/IResultReceiver$Stub.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/os/IResultReceiver.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/os/OperationCanceledException.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/os/ParcelableCompat$CompatCreator.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/os/ParcelableCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/os/ResultReceiver$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/os/ResultReceiver$MyResultReceiver.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/os/ResultReceiver$MyRunnable.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/os/ResultReceiver.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/os/TraceCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/print/PrintHelper$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/print/PrintHelper$OnPrintFinishCallback.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/print/PrintHelper$PrintHelperKitkatImpl$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/print/PrintHelper$PrintHelperKitkatImpl$2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/print/PrintHelper$PrintHelperKitkatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/print/PrintHelper$PrintHelperStubImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/print/PrintHelper$PrintHelperVersionImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/print/PrintHelper.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/provider/DocumentFile.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/provider/RawDocumentFile.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/provider/SingleDocumentFile.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/provider/TreeDocumentFile.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/text/BidiFormatter$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/text/BidiFormatter$Builder.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/text/BidiFormatter$DirectionalityEstimator.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/text/BidiFormatter.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/text/ICUCompat$ICUCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/text/ICUCompat$ICUCompatImplBase.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/text/ICUCompat$ICUCompatImplIcs.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/text/ICUCompat$ICUCompatImplLollipop.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/text/ICUCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/text/TextDirectionHeuristicCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/text/TextDirectionHeuristicsCompat$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/text/TextDirectionHeuristicsCompat$AnyStrong.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/text/TextDirectionHeuristicsCompat$FirstStrong.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/text/TextDirectionHeuristicsCompat$TextDirectionAlgorithm.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/text/TextDirectionHeuristicsCompat$TextDirectionHeuristicImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/text/TextDirectionHeuristicsCompat$TextDirectionHeuristicInternal.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/text/TextDirectionHeuristicsCompat$TextDirectionHeuristicLocale.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/text/TextDirectionHeuristicsCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/text/TextUtilsCompat$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/text/TextUtilsCompat$TextUtilsCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/text/TextUtilsCompat$TextUtilsCompatJellybeanMr1Impl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/text/TextUtilsCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/util/ArrayMap$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/util/ArrayMap.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/util/AtomicFile.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/util/CircularArray.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/util/CircularIntArray.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/util/ContainerHelpers.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/util/DebugUtils.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/util/LogWriter.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/util/LongSparseArray.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/util/LruCache.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/util/MapCollections$ArrayIterator.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/util/MapCollections$EntrySet.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/util/MapCollections$KeySet.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/util/MapCollections$MapIterator.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/util/MapCollections$ValuesCollection.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/util/MapCollections.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/util/Pair.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/util/Pools$Pool.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/util/Pools$SimplePool.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/util/Pools$SynchronizedPool.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/util/Pools.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/util/SimpleArrayMap.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/util/SparseArrayCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/util/TimeUtils.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateIcsImpl$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateIcsImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/AccessibilityDelegateCompat$AccessibilityDelegateStubImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/AccessibilityDelegateCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ActionProvider$SubUiVisibilityListener.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ActionProvider$VisibilityListener.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ActionProvider.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/GestureDetectorCompat$GestureDetectorCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/GestureDetectorCompat$GestureDetectorCompatImplBase$GestureHandler.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/GestureDetectorCompat$GestureDetectorCompatImplBase.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/GestureDetectorCompat$GestureDetectorCompatImplJellybeanMr2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/GestureDetectorCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/GravityCompat$GravityCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/GravityCompat$GravityCompatImplBase.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/GravityCompat$GravityCompatImplJellybeanMr1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/GravityCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/InputDeviceCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/KeyEventCompat$BaseKeyEventVersionImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/KeyEventCompat$EclairKeyEventVersionImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/KeyEventCompat$HoneycombKeyEventVersionImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/KeyEventCompat$KeyEventVersionImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/KeyEventCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/LayoutInflaterCompat$LayoutInflaterCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/LayoutInflaterCompat$LayoutInflaterCompatImplBase.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/LayoutInflaterCompat$LayoutInflaterCompatImplV11.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/LayoutInflaterCompat$LayoutInflaterCompatImplV21.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/LayoutInflaterCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/MarginLayoutParamsCompat$MarginLayoutParamsCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/MarginLayoutParamsCompat$MarginLayoutParamsCompatImplBase.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/MarginLayoutParamsCompat$MarginLayoutParamsCompatImplJbMr1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/MarginLayoutParamsCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/MenuCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/MenuItemCompat$BaseMenuVersionImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/MenuItemCompat$HoneycombMenuVersionImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/MenuItemCompat$IcsMenuVersionImpl$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/MenuItemCompat$IcsMenuVersionImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/MenuItemCompat$MenuVersionImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/MenuItemCompat$OnActionExpandListener.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/MenuItemCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/MotionEventCompat$BaseMotionEventVersionImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/MotionEventCompat$EclairMotionEventVersionImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/MotionEventCompat$GingerbreadMotionEventVersionImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/MotionEventCompat$HoneycombMr1MotionEventVersionImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/MotionEventCompat$MotionEventVersionImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/MotionEventCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/NestedScrollingChild.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/NestedScrollingChildHelper.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/NestedScrollingParent.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/NestedScrollingParentHelper.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/PagerAdapter.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/PagerTabStrip$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/PagerTabStrip$2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/PagerTabStrip.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/PagerTitleStrip$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/PagerTitleStrip$PageListener.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/PagerTitleStrip$PagerTitleStripImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/PagerTitleStrip$PagerTitleStripImplBase.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/PagerTitleStrip$PagerTitleStripImplIcs.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/PagerTitleStrip.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ScaleGestureDetectorCompat$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ScaleGestureDetectorCompat$BaseScaleGestureDetectorImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ScaleGestureDetectorCompat$ScaleGestureDetectorCompatKitKatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ScaleGestureDetectorCompat$ScaleGestureDetectorImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ScaleGestureDetectorCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ScrollingView.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/VelocityTrackerCompat$BaseVelocityTrackerVersionImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/VelocityTrackerCompat$HoneycombVelocityTrackerVersionImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/VelocityTrackerCompat$VelocityTrackerVersionImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/VelocityTrackerCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewCompat$BaseViewCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewCompat$EclairMr1ViewCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewCompat$GBViewCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewCompat$HCViewCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewCompat$ICSMr1ViewCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewCompat$ICSViewCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewCompat$JBViewCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewCompat$JbMr1ViewCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewCompat$JbMr2ViewCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewCompat$KitKatViewCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewCompat$LollipopViewCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewCompat$MarshmallowViewCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewCompat$ScrollIndicators.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewCompat$ViewCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewConfigurationCompat$BaseViewConfigurationVersionImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewConfigurationCompat$FroyoViewConfigurationVersionImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewConfigurationCompat$HoneycombViewConfigurationVersionImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewConfigurationCompat$IcsViewConfigurationVersionImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewConfigurationCompat$ViewConfigurationVersionImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewConfigurationCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewGroupCompat$ViewGroupCompatHCImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewGroupCompat$ViewGroupCompatIcsImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewGroupCompat$ViewGroupCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewGroupCompat$ViewGroupCompatJellybeanMR2Impl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewGroupCompat$ViewGroupCompatLollipopImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewGroupCompat$ViewGroupCompatStubImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewGroupCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewPager$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewPager$2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewPager$3.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewPager$Decor.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewPager$ItemInfo.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewPager$LayoutParams.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewPager$MyAccessibilityDelegate.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewPager$OnAdapterChangeListener.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewPager$OnPageChangeListener.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewPager$PageTransformer.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewPager$PagerObserver.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewPager$SavedState$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewPager$SavedState.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewPager$SimpleOnPageChangeListener.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewPager$ViewPositionComparator.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewPager.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewParentCompat$ViewParentCompatICSImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewParentCompat$ViewParentCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewParentCompat$ViewParentCompatKitKatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewParentCompat$ViewParentCompatLollipopImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewParentCompat$ViewParentCompatStubImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewParentCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewPropertyAnimatorCompat$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewPropertyAnimatorCompat$BaseViewPropertyAnimatorCompatImpl$Starter.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewPropertyAnimatorCompat$BaseViewPropertyAnimatorCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewPropertyAnimatorCompat$ICSViewPropertyAnimatorCompatImpl$MyVpaListener.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewPropertyAnimatorCompat$ICSViewPropertyAnimatorCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewPropertyAnimatorCompat$JBMr2ViewPropertyAnimatorCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewPropertyAnimatorCompat$JBViewPropertyAnimatorCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewPropertyAnimatorCompat$KitKatViewPropertyAnimatorCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewPropertyAnimatorCompat$LollipopViewPropertyAnimatorCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewPropertyAnimatorCompat$ViewPropertyAnimatorCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewPropertyAnimatorCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/ViewPropertyAnimatorListenerAdapter.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/WindowCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventIcsImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventKitKatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventStubImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityEventCompat$AccessibilityEventVersionImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityEventCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityManagerCompat$AccessibilityManagerIcsImpl$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityManagerCompat$AccessibilityManagerIcsImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityManagerCompat$AccessibilityManagerStubImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityManagerCompat$AccessibilityManagerVersionImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityManagerCompat$AccessibilityStateChangeListenerCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityManagerCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityNodeInfoCompat$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityNodeInfoApi21Impl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityNodeInfoApi22Impl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityNodeInfoIcsImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityNodeInfoImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityNodeInfoJellybeanImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityNodeInfoJellybeanMr1Impl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityNodeInfoJellybeanMr2Impl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityNodeInfoKitKatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityNodeInfoStubImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityNodeInfoCompat$CollectionInfoCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityNodeInfoCompat$CollectionItemInfoCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityNodeInfoCompat$RangeInfoCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityNodeInfoCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityNodeProviderCompat$AccessibilityNodeProviderImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityNodeProviderCompat$AccessibilityNodeProviderJellyBeanImpl$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityNodeProviderCompat$AccessibilityNodeProviderJellyBeanImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityNodeProviderCompat$AccessibilityNodeProviderKitKatImpl$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityNodeProviderCompat$AccessibilityNodeProviderKitKatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityNodeProviderCompat$AccessibilityNodeProviderStubImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityNodeProviderCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityRecordCompat$AccessibilityRecordIcsImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityRecordCompat$AccessibilityRecordIcsMr1Impl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityRecordCompat$AccessibilityRecordImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityRecordCompat$AccessibilityRecordJellyBeanImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityRecordCompat$AccessibilityRecordStubImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityRecordCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityWindowInfoCompat$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityWindowInfoCompat$AccessibilityWindowInfoApi21Impl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityWindowInfoCompat$AccessibilityWindowInfoImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityWindowInfoCompat$AccessibilityWindowInfoStubImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/accessibility/AccessibilityWindowInfoCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/animation/FastOutLinearInInterpolator.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/animation/FastOutSlowInInterpolator.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/animation/LinearOutSlowInInterpolator.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/animation/LookupTableInterpolator.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/view/animation/PathInterpolatorCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/AutoScrollHelper$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/AutoScrollHelper$ClampedScroller.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/AutoScrollHelper$ScrollAnimationRunnable.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/AutoScrollHelper.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/CircleImageView$OvalShadow.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/CircleImageView.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/CompoundButtonCompat$Api23CompoundButtonImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/CompoundButtonCompat$BaseCompoundButtonCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/CompoundButtonCompat$CompoundButtonCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/CompoundButtonCompat$LollipopCompoundButtonImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/CompoundButtonCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/ContentLoadingProgressBar$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/ContentLoadingProgressBar$2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/ContentLoadingProgressBar.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/CursorAdapter$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/CursorAdapter$ChangeObserver.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/CursorAdapter$MyDataSetObserver.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/CursorAdapter.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/CursorFilter$CursorFilterClient.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/CursorFilter.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/DrawerLayout$AccessibilityDelegate.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/DrawerLayout$ChildAccessibilityDelegate.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/DrawerLayout$DrawerLayoutCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/DrawerLayout$DrawerLayoutCompatImplApi21.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/DrawerLayout$DrawerLayoutCompatImplBase.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/DrawerLayout$DrawerListener.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/DrawerLayout$LayoutParams.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/DrawerLayout$SavedState$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/DrawerLayout$SavedState.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/DrawerLayout$SimpleDrawerListener.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/DrawerLayout$ViewDragCallback$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/DrawerLayout$ViewDragCallback.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/DrawerLayout.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/EdgeEffectCompat$BaseEdgeEffectImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/EdgeEffectCompat$EdgeEffectIcsImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/EdgeEffectCompat$EdgeEffectImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/EdgeEffectCompat$EdgeEffectLollipopImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/EdgeEffectCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/ExploreByTouchHelper$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/ExploreByTouchHelper$ExploreByTouchNodeProvider.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/ExploreByTouchHelper.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/ListPopupWindowCompat$BaseListPopupWindowImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/ListPopupWindowCompat$KitKatListPopupWindowImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/ListPopupWindowCompat$ListPopupWindowImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/ListPopupWindowCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/ListViewAutoScrollHelper.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/MaterialProgressDrawable$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/MaterialProgressDrawable$2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/MaterialProgressDrawable$3.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/MaterialProgressDrawable$ProgressDrawableSize.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/MaterialProgressDrawable$Ring.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/MaterialProgressDrawable.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/NestedScrollView$AccessibilityDelegate.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/NestedScrollView$OnScrollChangeListener.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/NestedScrollView$SavedState$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/NestedScrollView$SavedState.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/NestedScrollView.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/PopupMenuCompat$BasePopupMenuImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/PopupMenuCompat$KitKatPopupMenuImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/PopupMenuCompat$PopupMenuImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/PopupMenuCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/PopupWindowCompat$Api21PopupWindowImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/PopupWindowCompat$Api23PopupWindowImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/PopupWindowCompat$BasePopupWindowImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/PopupWindowCompat$GingerbreadPopupWindowImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/PopupWindowCompat$KitKatPopupWindowImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/PopupWindowCompat$PopupWindowImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/PopupWindowCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/ResourceCursorAdapter.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/ScrollerCompat$ScrollerCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/ScrollerCompat$ScrollerCompatImplBase.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/ScrollerCompat$ScrollerCompatImplGingerbread.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/ScrollerCompat$ScrollerCompatImplIcs.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/ScrollerCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SearchViewCompat$OnCloseListenerCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SearchViewCompat$OnQueryTextListenerCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SearchViewCompat$SearchViewCompatHoneycombImpl$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SearchViewCompat$SearchViewCompatHoneycombImpl$2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SearchViewCompat$SearchViewCompatHoneycombImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SearchViewCompat$SearchViewCompatIcsImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SearchViewCompat$SearchViewCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SearchViewCompat$SearchViewCompatStubImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SearchViewCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SimpleCursorAdapter$CursorToStringConverter.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SimpleCursorAdapter$ViewBinder.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SimpleCursorAdapter.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SlidingPaneLayout$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SlidingPaneLayout$AccessibilityDelegate.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SlidingPaneLayout$DisableLayerRunnable.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SlidingPaneLayout$DragHelperCallback.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SlidingPaneLayout$LayoutParams.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SlidingPaneLayout$PanelSlideListener.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SlidingPaneLayout$SavedState$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SlidingPaneLayout$SavedState.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SlidingPaneLayout$SimplePanelSlideListener.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SlidingPaneLayout$SlidingPanelLayoutImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SlidingPaneLayout$SlidingPanelLayoutImplBase.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SlidingPaneLayout$SlidingPanelLayoutImplJB.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SlidingPaneLayout$SlidingPanelLayoutImplJBMR1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SlidingPaneLayout.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/Space.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SwipeProgressBar.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SwipeRefreshLayout$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SwipeRefreshLayout$2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SwipeRefreshLayout$3.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SwipeRefreshLayout$4.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SwipeRefreshLayout$5.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SwipeRefreshLayout$6.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SwipeRefreshLayout$7.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SwipeRefreshLayout$8.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SwipeRefreshLayout$OnRefreshListener.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/SwipeRefreshLayout.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/TextViewCompat$BaseTextViewCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/TextViewCompat$JbMr1TextViewCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/TextViewCompat$JbMr2TextViewCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/TextViewCompat$JbTextViewCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/TextViewCompat$TextViewCompatImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/TextViewCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/TextViewCompatDonut.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/ViewDragHelper$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/ViewDragHelper$2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/ViewDragHelper$Callback.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/classes.jar_cx6ipuxylua8fjqnszshs2m7x/android/support/v4/widget/ViewDragHelper.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/accessibilityservice/AccessibilityServiceInfoCompatIcs.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/accessibilityservice/AccessibilityServiceInfoCompatJellyBeanMr2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/animation/AnimatorListenerCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/animation/AnimatorProvider.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/animation/AnimatorUpdateListenerCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/animation/DonutAnimatorCompatProvider$DonutFloatValueAnimator$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/animation/DonutAnimatorCompatProvider$DonutFloatValueAnimator.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/animation/DonutAnimatorCompatProvider.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/animation/HoneycombMr1AnimatorCompatProvider$AnimatorListenerCompatWrapper.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/animation/HoneycombMr1AnimatorCompatProvider$HoneycombValueAnimatorCompat$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/animation/HoneycombMr1AnimatorCompatProvider$HoneycombValueAnimatorCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/animation/HoneycombMr1AnimatorCompatProvider.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/animation/ValueAnimatorCompat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/ActionBarDrawerToggleHoneycomb$SetIndicatorInfo.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/ActionBarDrawerToggleHoneycomb.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/ActionBarDrawerToggleJellybeanMR2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/ActivityCompat21$SharedElementCallback21.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/ActivityCompat21$SharedElementCallbackImpl.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/ActivityCompat21.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/ActivityCompat22.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/ActivityCompatApi23$RequestPermissionsRequestCodeValidator.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/ActivityCompatApi23.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/ActivityCompatHoneycomb.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/ActivityCompatJB.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/ActivityManagerCompatKitKat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/ActivityOptionsCompat21.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/ActivityOptionsCompatJB.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/AppOpsManagerCompat23.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/BaseFragmentActivityDonut.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/BaseFragmentActivityHoneycomb.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/BundleCompatDonut.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/BundleCompatJellybeanMR2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/BundleUtil.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/FragmentTransitionCompat21$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/FragmentTransitionCompat21$2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/FragmentTransitionCompat21$3.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/FragmentTransitionCompat21$4.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/FragmentTransitionCompat21$EpicenterView.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/FragmentTransitionCompat21$ViewRetriever.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/FragmentTransitionCompat21.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/NavUtilsJB.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/NotificationBuilderWithActions.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/NotificationBuilderWithBuilderAccessor.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/NotificationCompatApi20$Builder.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/NotificationCompatApi20.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/NotificationCompatApi21$Builder.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/NotificationCompatApi21.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/NotificationCompatBase$Action$Factory.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/NotificationCompatBase$Action.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/NotificationCompatBase$UnreadConversation$Factory.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/NotificationCompatBase$UnreadConversation.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/NotificationCompatBase.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/NotificationCompatGingerbread.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/NotificationCompatHoneycomb.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/NotificationCompatIceCreamSandwich$Builder.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/NotificationCompatIceCreamSandwich.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/NotificationCompatJellybean$Builder.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/NotificationCompatJellybean.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/NotificationCompatKitKat$Builder.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/NotificationCompatKitKat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/NotificationManagerCompatEclair.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/NotificationManagerCompatIceCreamSandwich.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/RemoteInputCompatApi20.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/RemoteInputCompatBase$RemoteInput$Factory.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/RemoteInputCompatBase$RemoteInput.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/RemoteInputCompatBase.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/RemoteInputCompatJellybean.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/ShareCompatICS.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/ShareCompatJB.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/TaskStackBuilderHoneycomb.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/app/TaskStackBuilderJellybean.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/content/ContentResolverCompatJellybean.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/content/ContextCompatApi21.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/content/ContextCompatApi23.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/content/ContextCompatFroyo.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/content/ContextCompatHoneycomb.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/content/ContextCompatJellybean.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/content/ContextCompatKitKat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/content/EditorCompatGingerbread.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/content/ExecutorCompatHoneycomb.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/content/IntentCompatHoneycomb.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/content/IntentCompatIcsMr1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/content/res/ResourcesCompatApi21.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/content/res/ResourcesCompatApi23.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/content/res/ResourcesCompatIcsMr1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/graphics/BitmapCompatHoneycombMr1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/graphics/BitmapCompatJellybeanMR2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/graphics/BitmapCompatKitKat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/graphics/drawable/DrawableCompatApi22.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/graphics/drawable/DrawableCompatApi23.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/graphics/drawable/DrawableCompatBase.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/graphics/drawable/DrawableCompatHoneycomb.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/graphics/drawable/DrawableCompatJellybeanMr1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/graphics/drawable/DrawableCompatKitKat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/graphics/drawable/DrawableCompatLollipop.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/graphics/drawable/DrawableWrapper.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/graphics/drawable/DrawableWrapperDonut.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/graphics/drawable/DrawableWrapperHoneycomb.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/graphics/drawable/DrawableWrapperKitKat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/graphics/drawable/DrawableWrapperLollipop.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/graphics/drawable/RoundedBitmapDrawable.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/graphics/drawable/RoundedBitmapDrawable21.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/hardware/display/DisplayManagerJellybeanMr1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/hardware/fingerprint/FingerprintManagerCompatApi23$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/hardware/fingerprint/FingerprintManagerCompatApi23$AuthenticationCallback.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/hardware/fingerprint/FingerprintManagerCompatApi23$AuthenticationResultInternal.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/hardware/fingerprint/FingerprintManagerCompatApi23$CryptoObject.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/hardware/fingerprint/FingerprintManagerCompatApi23.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/MediaDescriptionCompatApi21$Builder.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/MediaDescriptionCompatApi21.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/MediaDescriptionCompatApi23$Builder.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/MediaDescriptionCompatApi23.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/MediaMetadataCompatApi21$Builder.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/MediaMetadataCompatApi21.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/RatingCompatApi21.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/TransportMediatorCallback.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/TransportMediatorJellybeanMR2$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/TransportMediatorJellybeanMR2$2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/TransportMediatorJellybeanMR2$3.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/TransportMediatorJellybeanMR2$4.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/TransportMediatorJellybeanMR2$5.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/TransportMediatorJellybeanMR2$6.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/TransportMediatorJellybeanMR2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/VolumeProviderCompatApi21$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/VolumeProviderCompatApi21$Delegate.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/VolumeProviderCompatApi21.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/routing/MediaRouterJellybean$Callback.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/routing/MediaRouterJellybean$CallbackProxy.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/routing/MediaRouterJellybean$GetDefaultRouteWorkaround.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/routing/MediaRouterJellybean$RouteCategory.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/routing/MediaRouterJellybean$RouteGroup.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/routing/MediaRouterJellybean$RouteInfo.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/routing/MediaRouterJellybean$SelectRouteWorkaround.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/routing/MediaRouterJellybean$UserRouteInfo.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/routing/MediaRouterJellybean$VolumeCallback.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/routing/MediaRouterJellybean$VolumeCallbackProxy.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/routing/MediaRouterJellybean.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/routing/MediaRouterJellybeanMr1$ActiveScanWorkaround.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/routing/MediaRouterJellybeanMr1$Callback.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/routing/MediaRouterJellybeanMr1$CallbackProxy.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/routing/MediaRouterJellybeanMr1$IsConnectingWorkaround.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/routing/MediaRouterJellybeanMr1$RouteInfo.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/routing/MediaRouterJellybeanMr1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/routing/MediaRouterJellybeanMr2$RouteInfo.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/routing/MediaRouterJellybeanMr2$UserRouteInfo.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/routing/MediaRouterJellybeanMr2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/session/MediaControllerCompatApi21$Callback.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/session/MediaControllerCompatApi21$CallbackProxy.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/session/MediaControllerCompatApi21$PlaybackInfo.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/session/MediaControllerCompatApi21$TransportControls.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/session/MediaControllerCompatApi21.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/session/MediaControllerCompatApi23$TransportControls.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/session/MediaControllerCompatApi23.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/session/MediaSessionCompatApi14$Callback.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/session/MediaSessionCompatApi14.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/session/MediaSessionCompatApi18$OnPlaybackPositionUpdateListener.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/session/MediaSessionCompatApi18.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/session/MediaSessionCompatApi19$OnMetadataUpdateListener.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/session/MediaSessionCompatApi19.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/session/MediaSessionCompatApi21$Callback.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/session/MediaSessionCompatApi21$CallbackProxy.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/session/MediaSessionCompatApi21$QueueItem.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/session/MediaSessionCompatApi21.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/session/MediaSessionCompatApi22.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/session/MediaSessionCompatApi23$Callback.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/session/MediaSessionCompatApi23$CallbackProxy.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/session/MediaSessionCompatApi23.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/session/MediaSessionCompatApi8.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/session/PlaybackStateCompatApi21$CustomAction.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/session/PlaybackStateCompatApi21.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/media/session/PlaybackStateCompatApi22.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/net/ConnectivityManagerCompatGingerbread.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/net/ConnectivityManagerCompatHoneycombMR2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/net/ConnectivityManagerCompatJellyBean.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/net/TrafficStatsCompatIcs.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/os/AsyncTaskCompatHoneycomb.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/os/CancellationSignalCompatJellybean.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/os/EnvironmentCompatKitKat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/os/ParcelableCompatCreatorCallbacks.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/os/ParcelableCompatCreatorHoneycombMR2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/os/ParcelableCompatCreatorHoneycombMR2Stub.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/os/TraceJellybeanMR2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/print/PrintHelperKitkat$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/print/PrintHelperKitkat$2$1$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/print/PrintHelperKitkat$2$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/print/PrintHelperKitkat$2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/print/PrintHelperKitkat$OnPrintFinishCallback.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/print/PrintHelperKitkat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/provider/DocumentsContractApi19.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/provider/DocumentsContractApi21.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/speech/tts/TextToSpeechICS.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/speech/tts/TextToSpeechICSMR1$1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/speech/tts/TextToSpeechICSMR1$2.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/speech/tts/TextToSpeechICSMR1$UtteranceProgressListenerICSMR1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/speech/tts/TextToSpeechICSMR1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/text/ICUCompatApi23.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/text/ICUCompatIcs.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/text/TextUtilsCompatJellybeanMr1.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/accessibility/AccessibilityEventCompatIcs.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/accessibility/AccessibilityEventCompatKitKat.class
+#	new file:   slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/accessibility/AccessibilityManagerCompatIcs$1.class
+#
+# Changes not staged for commit:
+#	modified:   .idea/workspace.xml
+#	modified:   slideDayTimePicker/slideDayTimePicker.iml
+#	modified:   zxing/zxing.iml
+#
+# Untracked files:
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/AccessibilityDelegateCompatIcs$1.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/AccessibilityDelegateCompatIcs$AccessibilityDelegateBridge.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/AccessibilityDelegateCompatIcs.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/AccessibilityDelegateCompatJellyBean$1.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/AccessibilityDelegateCompatJellyBean$AccessibilityDelegateBridgeJellyBean.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/AccessibilityDelegateCompatJellyBean.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/GravityCompatJellybeanMr1.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/KeyEventCompatEclair.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/KeyEventCompatHoneycomb.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/LayoutInflaterCompatBase$FactoryWrapper.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/LayoutInflaterCompatBase.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/LayoutInflaterCompatHC$FactoryWrapperHC.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/LayoutInflaterCompatHC.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/LayoutInflaterCompatLollipop.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/LayoutInflaterFactory.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/MarginLayoutParamsCompatJellybeanMr1.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/MenuItemCompatHoneycomb.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/MenuItemCompatIcs$OnActionExpandListenerWrapper.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/MenuItemCompatIcs$SupportActionExpandProxy.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/MenuItemCompatIcs.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/MotionEventCompatEclair.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/MotionEventCompatGingerbread.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/MotionEventCompatHoneycombMr1.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/OnApplyWindowInsetsListener.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/PagerTitleStripIcs$SingleLineAllCapsTransform.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/PagerTitleStripIcs.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ScaleGestureDetectorCompatKitKat.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/TintableBackgroundView.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/VelocityTrackerCompatHoneycomb.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewCompatBase.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewCompatEclairMr1.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewCompatGingerbread.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewCompatHC.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewCompatICS.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewCompatICSMr1.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewCompatJB.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewCompatJellybeanMr1.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewCompatJellybeanMr2.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewCompatKitKat.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewCompatLollipop$1.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewCompatLollipop.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewCompatMarshmallow.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewConfigurationCompatFroyo.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewConfigurationCompatICS.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewGroupCompatHC.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewGroupCompatIcs.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewGroupCompatJellybeanMR2.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewGroupCompatLollipop.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewParentCompatICS.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewParentCompatKitKat.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewParentCompatLollipop.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewPropertyAnimatorCompatICS$1.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewPropertyAnimatorCompatICS.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewPropertyAnimatorCompatJB$1.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewPropertyAnimatorCompatJB.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewPropertyAnimatorCompatJellybeanMr2.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewPropertyAnimatorCompatKK$1.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewPropertyAnimatorCompatKK.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewPropertyAnimatorCompatLollipop.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewPropertyAnimatorListener.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/ViewPropertyAnimatorUpdateListener.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/WindowInsetsCompat.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/WindowInsetsCompatApi21.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/accessibility/AccessibilityManagerCompatIcs$AccessibilityStateChangeListenerBridge.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/accessibility/AccessibilityManagerCompatIcs.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/accessibility/AccessibilityNodeInfoCompatApi21$CollectionItemInfo.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/accessibility/AccessibilityNodeInfoCompatApi21.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/accessibility/AccessibilityNodeInfoCompatApi22.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/accessibility/AccessibilityNodeInfoCompatIcs.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/accessibility/AccessibilityNodeInfoCompatJellyBean.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/accessibility/AccessibilityNodeInfoCompatJellybeanMr1.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/accessibility/AccessibilityNodeInfoCompatJellybeanMr2.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/accessibility/AccessibilityNodeInfoCompatKitKat$CollectionInfo.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/accessibility/AccessibilityNodeInfoCompatKitKat$CollectionItemInfo.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/accessibility/AccessibilityNodeInfoCompatKitKat$RangeInfo.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/accessibility/AccessibilityNodeInfoCompatKitKat.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/accessibility/AccessibilityNodeProviderCompatJellyBean$1.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/accessibility/AccessibilityNodeProviderCompatJellyBean$AccessibilityNodeInfoBridge.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/accessibility/AccessibilityNodeProviderCompatJellyBean.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/accessibility/AccessibilityNodeProviderCompatKitKat$1.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/accessibility/AccessibilityNodeProviderCompatKitKat$AccessibilityNodeInfoBridge.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/accessibility/AccessibilityNodeProviderCompatKitKat.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/accessibility/AccessibilityRecordCompatIcs.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/accessibility/AccessibilityRecordCompatIcsMr1.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/accessibility/AccessibilityRecordCompatJellyBean.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/accessibility/AccessibilityWindowInfoCompatApi21.class
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/view/animation/
+#	slideDayTimePicker/build/tmp/expandedArchives/internal_impl-23.1.1.jar_ejx75n7u9tk21axxe6rh09t54/android/support/v4/widget/
+#	slideDayTimePicker/build/tmp/expandedArchives/support-annotations-23.1.1.jar_256r0vkcmbm9v8qwh5k2tv3o2/
+#
+

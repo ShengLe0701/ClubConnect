@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1975fe"
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/main"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/image"
+                android:src="@drawable/logo"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="70dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/clubconnect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="It&apos;s Lit"
+                android:textColor="@color/White"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:layout_marginTop="21dp"
+                android:layout_below="@+id/image"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <LinearLayout
+                android:id="@+id/llBtnsGroup"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/clubconnect"
+                android:layout_marginTop="150dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <Button
+                    android:id="@+id/main_organization_sign_up_b"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@drawable/roundbutton"
+                    android:textAllCaps="false"
+                    android:text="New Group"
+                    android:textStyle="bold"
+                    android:textColor="#1975fe"
+                    android:layout_weight="5" />
+
+                <Button
+                    android:id="@+id/main_student_sign_up_b"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:textAllCaps="false"
+                    android:background="@drawable/roundbutton"
+                    android:text="I'm a Student"
+                    android:textStyle="bold"
+                    android:textColor="#1975fe"
+                    android:layout_weight="5"
+                    android:layout_marginLeft="10dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/main_sign_in_b"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/llBtnsGroup"
+                android:layout_marginTop="20dp"
+                android:text="Login"
+                android:textColor="@color/White"
+                android:textSize="30dp"
+                android:textStyle="bold"   />
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

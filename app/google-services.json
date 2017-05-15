@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "998587654922",
+    "firebase_url": "https://connect-668f9.firebaseio.com",
+    "project_id": "connect-668f9",
+    "storage_bucket": "connect-668f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998587654922:android:6cfe6aa748edd8cc",
+        "android_client_info": {
+          "package_name": "com.novatuerapp.clubconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "998587654922-f3eg7q5nk83l32201vqtcmhflumn5drm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAunj0N-nJuvL3pO3-JwAN3FsMEcUulRBA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

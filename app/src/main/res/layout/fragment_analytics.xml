@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    tools:context="com.clubconnect.isayyuhh.clubconnect.fragments.PageAnalytics">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Potential Connections"
+                android:textColor="@color/Black"
+                android:textSize="23dp"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:id="@+id/club_analytics_potential"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:text="Please Wait..."
+                android:textColor="@color/Black"
+                android:textSize="35dp"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Connections"
+                android:textColor="@color/Black"
+                android:textSize="23dp"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:id="@+id/club_analytics_connections"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:text="Please Wait..."
+                android:textColor="@color/Black"
+                android:textSize="35dp"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:id="@+id/club_analytics_people"
+                android:clickable="true"
+                android:onClick="showPeople"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The People"
+                android:textColor="#1975fe"
+                android:textSize="20dp"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

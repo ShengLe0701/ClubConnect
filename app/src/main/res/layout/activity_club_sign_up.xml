@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="#1975fe"
+    tools:context=".activities.SignUpAccount">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_margin="32dp">
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Club Connect"
+            android:textColor="@color/md_white_1000"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:id="@+id/sign_up_name"
+            android:theme="@style/LoginTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/White"
+            android:hint="Club Name"
+            android:singleLine="true"/>
+        <EditText
+            android:id="@+id/sign_up_email"
+            android:theme="@style/LoginTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/White"
+            android:hint="Club Email"
+            android:singleLine="true"/>
+        <EditText
+            android:id="@+id/sign_up_phone"
+            android:theme="@style/LoginTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/White"
+            android:hint="Phone Number"
+            android:singleLine="true"/>
+        <EditText
+            android:id="@+id/sign_up_password"
+            android:theme="@style/LoginTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/White"
+            android:hint="Password"
+            android:singleLine="true"
+            android:password="true"/>
+        <Spinner
+            android:theme="@style/LoginTheme"
+            android:id="@+id/sign_up_school"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/White"
+            android:entries="@array/organization_schools"
+            android:spinnerMode="dialog"
+            android:prompt="@string/school_prompt" />
+        <Button
+            android:id="@+id/sign_up_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONNECT"
+            android:textColor="@color/md_blue_500"
+            android:background="@color/md_white_1000"
+            android:layout_margin="16dp"/>
+    </LinearLayout>
+</RelativeLayout>

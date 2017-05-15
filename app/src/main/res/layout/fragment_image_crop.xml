@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.ImageCropFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:baselineAlignBottom="false"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                android:layout_marginBottom="150dp"
+            android:text="Crop"
+            android:background="#1975fe"
+            android:textColor="@color/White"
+            android:layout_marginRight="32dp"
+            android:layout_marginLeft="32dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

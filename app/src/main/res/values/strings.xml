@@ -1,0 +1,243 @@
+<resources>
+    <string name="app_name">Club Connect</string>
+
+    <string name="label_club">Club</string>
+    <string name="label_category">Category</string>
+    <string name="label_interests">Choose 3 or more</string>
+    <string name="label_subinterests">Choose 3 or more</string>
+
+    <string name="parse_categories">user_categories</string>
+    <string name="parse_subcategories">userSub_categories</string>
+    <string name="parse_ascending">createdAt</string>
+    <string name="parse_date">dateAndTime</string>
+    <string name="parse_objectid">objectId</string>
+    <string name="parse_connected">connected</string>
+    <string name="parse_savedclubs">savedClubs</string>
+
+    <string name="parse_class_club">Club</string>
+    <string name="parse_class_event">Event</string>
+
+    <string name="title_club">Club</string>
+
+    <string name="tag_phone">phone</string>
+    <string name="tag_email">email</string>
+
+    <string name="toast_connected">Connected</string>
+    <string name="toast_unconnected">Unconnected</string>
+
+    <string name="activity_interest">ActivityInterest</string>
+    <string name="activity_subinterest">ActivitySubInterest</string>
+    <string name="activity_signup">ActivitySignUp</string>
+    <string name="activity_home">ActivityHome</string>
+    <string name="activity_startup">ActivityStartup</string>
+    <string name="activity_login">ActivityLogin</string>
+    <string name="activity_foryou">ActivityForYou</string>
+    <string name="activity_club">ActivityClub</string>
+    <string name="activity_event">ActivityEvent</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_interests">Change Interests</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="content_image">image</string>
+
+    <string name="icon_connect">Connect</string>
+    <string name="icon_going">Going</string>
+    <string name="icon_contact">Contact</string>
+    <string name="icon_share">Share</string>
+
+    <string name="intent_id">ID</string>
+    <string name="intent_categories">CATEGORIES</string>
+    <string name="intent_subcategories">SUB-CATEGORIES</string>
+    <string name="intent_selected_categories">CATEGORIES-SELECTED</string>
+    <string name="intent_selected_subcategories">SUB-CATEGORIES-SELECTED</string>
+
+    <string name="intent_type_textplain">text/plain</string>
+
+    <string name="detail_summary">Summary</string>
+    <string name="detail_events">Events</string>
+
+    <string name="dialog_contacttitle">Contact club via:</string>
+
+    <string name="share_via">Share via:</string>
+
+    <string name="filename_connections">connections.txt</string>
+    <string name="filename_goings">goings.txt</string>
+
+    <string name="newline">\n</string>
+
+    <string name="tab_foryou">For You</string>
+    <string name="tab_lit">Lit</string>
+    <string name="tab_search">Search</string>
+    <string name="tab_connections">Connections</string>
+    <string name="tab_scan">Scan</string>
+
+    <string name="tab_events">Events</string>
+    <string name="tab_messages">Messages</string>
+    <string name="tab_analytics">Analytics</string>
+    <string name="tab_edit_profile">Edit Profile</string>
+
+    <string-array name="categories">
+        <item>Academic</item>
+        <item>Cultural &amp; Identity</item>
+        <item>Environmental &amp; Sustainability</item>
+        <item>Everything Else</item>
+        <item>Greek Letter Organization</item>
+        <item>Health and Wellness</item>
+        <item>Performing &amp; Visual Arts</item>
+        <item>Political &amp; Advocacy</item>
+        <item>Professional</item>
+        <item>Religious &amp; Spiritual</item>
+        <item>STEM</item>
+        <item>Social</item>
+        <item>Sports</item>
+        <item>Volunteering</item>
+    </string-array>
+    <string-array name="Academic">
+        <item>Academic Mentorship</item>
+        <item>Minority Mentorship Groups</item>
+        <item>Scholarship Groups</item>
+        <item>Honor Society</item>
+        <item>Tutoring</item>
+    </string-array>
+    <string-array name="CulturalIdentity">
+        <item>African American</item>
+        <item>South American</item>
+        <item>Asian American</item>
+        <item>Indian American</item>
+        <item>LGBQT</item>
+        <item>Middle Eastern American</item>
+        <item>Native American/ Indigenous</item>
+        <item>International Students</item>
+        <item>Chicano/ Latino</item>
+    </string-array>
+    <string-array name="EnvironmentalSustainability">
+        <item>Environmental &amp; Sustainability</item>
+    </string-array>
+    <string-array name="EverythingElse">
+        <item>Gaming</item>
+        <item>Health of the Mind and Body</item>
+        <item>Tech</item>
+        <item>DIY</item>
+        <item>Backpacking</item>
+        <item>Residential Life</item>
+        <item>Journals</item>
+        <item>Student Gov.</item>
+        <item>Out Of State</item>
+    </string-array>
+    <string-array name="GreekLetterOrganization">
+        <item>Sorority</item>
+        <item>Fraternity</item>
+        <item>Greek Co-ed</item>
+    </string-array>
+    <string-array name="HealthandWellness">
+        <item>Fitness</item>
+        <item>Self Improvement</item>
+        <item>Meditation</item>
+        <item>Outdoor</item>
+    </string-array>
+    <string-array name="PerformingVisualArts">
+        <item>Music/ Singing/ Radio</item>
+        <item>Design</item>
+        <item>Theater</item>
+        <item>Dance</item>
+        <item>Arts</item>
+        <item>Film</item>
+        <item>Media</item>
+    </string-array>
+    <string-array name="PoliticalAdvocacy">
+        <item>Animal Rights</item>
+        <item>Politics</item>
+        <item>Human Rights</item>
+        <item>Environmentalism</item>
+        <item>Social Activism</item>
+    </string-array>
+    <string-array name="Professional">
+        <item>Minority Groups</item>
+        <item>Medical</item>
+        <item>STEM</item>
+        <item>Start Ups</item>
+        <item>Career Planning</item>
+        <item>Business</item>
+        <item>Leadership &amp; Public Speaking</item>
+        <item>Law</item>
+    </string-array>
+    <string-array name="ReligiousSpiritual">
+        <item>Christianity</item>
+        <item>Islam</item>
+        <item>Judaism</item>
+    </string-array>
+    <string-array name="STEM">
+        <item>Engineering</item>
+        <item>Science</item>
+        <item>Technology</item>
+    </string-array>
+    <string-array name="Social">
+        <item>Free Food</item>
+        <item>Dances</item>
+        <item>Mixers</item>
+        <item>Parties</item>
+    </string-array>
+    <string-array name="Sports">
+        <item>Team</item>
+        <item>Individual</item>
+        <item>Track &amp; Field</item>
+        <item>Competitive</item>
+        <item>Non- Competitive</item>
+        <item>Dance</item>
+        <item>Water Sports</item>
+        <item>Stamina Based</item>
+        <item>Strength Based</item>
+        <item>Martial Arts</item>
+    </string-array>
+    <string-array name="Volunteering">
+        <item>Volunteering</item>
+        <item>Charity</item>
+        <item>Community Service</item>
+    </string-array>
+
+    <string-array name="tabs_foryou">
+        <item>Clubs</item>
+        <item>Events</item>
+    </string-array>
+    <string-array name="tabs_search">
+        <item>Clubs</item>
+        <item>Events</item>
+    </string-array>
+    <string-array name="tabs_connections">
+        <item>Connections</item>
+        <item>Going</item>
+    </string-array>
+    <string-array name="tabs_messages">
+        <item>Sent</item>
+        <item>Received</item>
+    </string-array>
+    <string-array name="dialog_contactoptions">
+        <item>Phone</item>
+        <item>Email</item>
+        <item>Copy Phone Number</item>
+        <item>Copy Email Address</item>
+    </string-array>
+
+    <string name="school_prompt">
+        Choose a School
+    </string>
+    <string-array name="organization_schools">
+        <item>UCSC</item>
+        <item>UCLA</item>
+        <item>USC</item>
+        <item>Stanford</item>
+        <item>UCSD</item>
+        <item>UCI</item>
+    </string-array>
+    <string-array name="student_school">
+        <item>UCSC</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_maintenance">MaintenanceActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
